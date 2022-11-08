@@ -1,0 +1,162 @@
+.icons
+{
+    font-size:25px
+}
+
+.button{
+    padding-right: 20px;
+    
+}
+
+.formatButton
+{
+    width: 129px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ProfileImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 1000px;
+    /* border: 1px solid var(--ins-border-primary); */
+    clip-path: circle(75px at 50% 50%);
+    @media only screen and (max-width: 735px) {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.Logo{
+  height: 29px;
+}
+
+.NavContent {
+  max-width: 935px;
+  margin: 0 auto;
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media only screen and (max-width: 735px) {
+    padding: 0 20px;
+  }
+}
+
+.SearchGuide {
+  width: 215px;
+  background: var(--ins-background-secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 26px;
+  border-radius: 3px;
+  border: 1px solid var(--ins-border-primary);
+}
+
+.SearchPlaceholder {
+  color: var(--ins-mono-700);
+  font-size: 14px;
+  margin-left: 6px;
+}
+.Mock{
+  height: 54px;
+}
+
+.Fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--ins-background-primary);
+  border-bottom: 1px solid var(--ins-border-primary);
+  z-index: 1;
+}
+
+.DesktopOnly{
+    @media only screen and (max-width: 735px) {
+        display: none;
+      }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+      Arial, sans-serif;
+  }
+  body {
+    color: #262626;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .app {
+    background-color: #fafafa;
+    min-height: 100px;
+  }
+  .app__header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: white;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+    border-bottom: 1px solid lightgray;
+  }
+  .app__headerWrapper {
+    max-width: 975px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .app__headerButtons {
+    display: flex;
+    column-gap: 15px;
+  }
+  button {
+    font-size: 14px;
+    line-height: 18px;
+    cursor: pointer;
+    border: 1px solid transparent;
+  }
+  .primary__button {
+    background-color: #0095f6;
+    border-radius: 4px;
+    color: #fff;
+    padding: 5px 9px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .second__button {
+    background-color: #6c757d;
+    border-radius: 4px;
+    color: #fff;
+    padding: 5px 9px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .text__button {
+    color: #0095f6;
+    font-weight: 600;
+    line-height: 28px;
+    background-color: transparent;
+  }
+  .app__signUp {
+    display: flex;
+    flex-direction: column;
+    margin: 28px 0;
+    row-gap: 15px;
+  }
+  .logo-size{
+    margin-left:100px
+  }
+  .word{
+    font-size:13px
+  }

@@ -1,0 +1,44 @@
+.profile-photo {
+    display: block;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 auto;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/800px-Google_Chrome_icon_%28February_2022%29.svg.png");
+    background-size: 100%;
+    background-position: 80% 0%;
+    background-repeat: no-repeat;
+    
+
+}
+.primary__button {
+  background-color: #0095f6;
+  border-radius: 4px;
+  color: #fff;
+  padding: 5px 9px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.profile-info {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .hrs {
+    justify-content:center;
+    align-content: center;
+    width: 100%;
+    padding : 00px 100px 00px 100px
+  }
+
+  h5{
+    text-align: left;
+  }
+  .solid{
+    align-items: center;
+  } 
